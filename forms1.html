@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form method="" action="./menucard.html">
+    <input type="text" name="User" placeholder="Username" minlength="4" maxlength="12" required pattern="[A-Z]\s[A-Z][a-z]{1,9}"><br>
+    <input type="password" name="pass" placeholder="password" minlength="5" maxlength="10" required pattern="Hello"><br>
+    <input type="text" name="Mobile" placeholder="Mobile No" required pattern="\+91\s[6789][\d]{9}"><br>
+    <lable for="male">Male</lable>
+    <input type="radio" name="gender" id="male" value="male">    
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" value="Female"><br>
+    <label for="telugu">Telugu</label>
+    <input type="checkbox" name="languages" id="telugu" value="Telugu">
+    <label for="hindi">Hindi</label>  
+    <input type="checkbox" name="languages" id="hindi" value="hindi">
+    <label for="english">English</label>
+    <input type="checkbox" name="languages" id="english" value="English"><br>
+    <label for="Branch">Choose the course</label>
+    <select name="branch" id="Branch">
+        <option value="BCA">BCA
+        </option>
+        <option value="BSC.stat">
+            BSC.stat
+        </option>
+        <option value="BSC.physics">
+            BSC.physics
+        </option>
+    </select><br>
+    <input type="submit" value="login">
+   </form>
+</body>
+</html>
